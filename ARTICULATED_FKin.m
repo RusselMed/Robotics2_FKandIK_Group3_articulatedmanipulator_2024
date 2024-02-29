@@ -5,9 +5,7 @@ syms a1 a2 a3 t1 t2 t3
 a1 = 3;
 a2 = 3;
 a3 = 3;
-a4 = 2;
 
-%% Joint Variables
 
 
 %% D-H Parameters [Theta, d, r, alpha, offset]
