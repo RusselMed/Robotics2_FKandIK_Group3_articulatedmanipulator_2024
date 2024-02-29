@@ -37,7 +37,7 @@ phi2 = np.arccos((a3**2 - a2**2 - r3**2) / (-2*a2*r3)) * 180 / np.pi
 theta2 = phi1 + phi2
 
 # Solution 8
-phi3 = np.arccos((r3**2-a2*2-a3**2)/(-2*a2*a3)) * 180/np.pi
+phi3 = np.arccos((r3**2 - a2**2 - a3**2) / (-2 * a2 * a3)) * 180/np.pi
 
 # Solution 9
 theta3 = phi3 - 180/np.pi
