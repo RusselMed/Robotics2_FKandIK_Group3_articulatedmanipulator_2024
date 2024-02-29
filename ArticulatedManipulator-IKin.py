@@ -19,25 +19,25 @@ z0_3 =  float(input("z0_3 = "))
 theta1 = np.arctan(y0_3/x0_3) * 180/np.pi
 
 # Solution 2
-r1 = np.sqr(y0_3**2 + x0_3**2)
+r1 = np.sqrt(y0_3**2 + x0_3**2)
 
 # Solution 3
 r2 = z0_3-a1
 
 # Solution 4
-phi1 = np.arctan(r2/r1)
+phi1 = np.arctan(r2/r1) * 180/np.pi
 
 # Solution 5
-r3 = np.sqr(r2**2 + r1**2) 
+r3 = np.sqrt(r2**2 + r1**2) 
 
 # Solution 6
-phi2 = np.arccos((a3**2-a2**2-r3**2)/(-2*a2*r3))
+phi2 = np.arccos((a3**2-a2**2-r3**2)/(-2*a2*r3)) * 180/np.pi
 
 # Solution 7
-theta2 = (phi1 + phi2) * 180/np.pi
+theta2 = phi1 + phi2
 
 # Solution 8
-phi3 = np.arccos((r3**2-a2*2-a3**2)/(-2*a2*a3))
+phi3 = np.arccos((r3**2-a2*2-a3**2)/(-2*a2*a3)) * 180/np.pi
 
 # Solution 9
 theta3 = phi3 - 180/np.pi
