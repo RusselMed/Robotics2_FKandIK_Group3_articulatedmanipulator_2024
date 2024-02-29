@@ -21,7 +21,7 @@ T3 = (T3/180)*np.pi
 
 #Parametric Table: (Theta, alpha, r, d)
 
-PT = [[T1(90/180)*np.pi,0,a1],
+PT = [[T1,(90/180)*np.pi,0,a1],
      [T2,(0/180)*np.pi,a2,0],
      [T3,(0/180)*np.pi,a3,0]]
 
