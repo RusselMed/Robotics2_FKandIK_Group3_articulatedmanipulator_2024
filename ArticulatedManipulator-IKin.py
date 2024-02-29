@@ -22,7 +22,7 @@ theta1 = np.arctan(y0_3 / x0_3) * 180 / np.pi
 r1 = np.sqrt(y0_3**2 + x0_3**2)
 
 # Solution 3
-r2 = z0_3-a1
+r2 = z0_3 - a1
 
 # Solution 4
 phi1 = np.arctan(r2/r1) * 180/np.pi
