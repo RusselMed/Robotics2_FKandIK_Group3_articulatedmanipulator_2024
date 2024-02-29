@@ -21,8 +21,8 @@ H2_3 = Link([0, 0, a3, 0, 0]);
 H2_3.qlim = [-pi/2 pi/2];
 
 
-Arti = SerialLink ([H0_1 H1_2 H2_3], 'name', 'Arti')
-Arti.plot ([0 0 0 ],'workspace',[-10 10 -10 10 -10 10]) 
-Arti.teach
+Articulated = SerialLink ([H0_1 H1_2 H2_3], 'name', 'Articulated')
+Articulated.plot ([0 0 0 ],'workspace',[-10 10 -10 10 -10 10]) 
+Articulated.teach
 
     
