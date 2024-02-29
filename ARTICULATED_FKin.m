@@ -22,7 +22,7 @@ H2_3.qlim = [-pi/2 pi/2];
 
 
 Articulated = SerialLink ([H0_1 H1_2 H2_3], 'name', 'Articulated')
-Articulated.plot ([0 0 0],'workspace',[-50 50 -50 50 0 50]) 
+Articulated.plot ([0 0 0],'workspace',[-50 50 -50 50 0 80]) 
 Articulated.teach
 
     
