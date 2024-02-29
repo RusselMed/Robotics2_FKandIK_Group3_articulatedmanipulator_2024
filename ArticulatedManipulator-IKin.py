@@ -16,7 +16,7 @@ z0_3 =  float(input("z0_3 = "))
 # Inverse Kinematics using Graphical Method
 
 # Solution 1
-theta1 = np.arctan(x0_3/y0_3) * 180/np.pi
+theta1 = np.arctan(y0_3/x0_3) * 180/np.pi
 
 # Solution 2
 r1 = np.sqr(y0_3**2 + x0_3**2)
