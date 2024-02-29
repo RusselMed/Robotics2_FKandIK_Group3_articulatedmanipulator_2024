@@ -26,3 +26,6 @@ Articulated.plot ([0 0 0],'workspace',[-50 50 -50 50 0 80])
 Articulated.teach
 
     
+disp('Articulated Manipulator')
+syms a1 a2 a3 t1 t2 t3
+
