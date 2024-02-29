@@ -25,7 +25,7 @@ r1 = np.sqrt(y0_3**2 + x0_3**2)
 r2 = z0_3 - a1
 
 # Solution 4
-phi1 = np.arctan(r2/r1) * 180/np.pi
+phi1 = np.arctan(r2 / r1) * 180 / np.pi
 
 # Solution 5
 r3 = np.sqrt(r2**2 + r1**2) 
